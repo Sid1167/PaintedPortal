@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: norder-box;
+    font-family: 'poppins',sans-serif;
+    
+  }
+
+.parallax{
+    background:#0c102d ;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.text{
+    font-family: 'poppins',sans-serif;
+    position: fixed;
+    top:250px;
+    font-size: 5em;
+    color: #333;
+}
+
+.parallax img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    pointer-events:none;
+}
+/* Sky Zoom in (Expand)*/
+
+.parallax .sky{ 
+    height:700px;
+}
+
+/* Cloud Zoom in (Expand)*/
+.parallax .cloud{
+    width:1500px;
+    height:800px;
+    position:absolute;
+    top:-75px;
+    left:20px;
+  
+}
+
+/* Mountain going up & consuming the Text */
+.parallax .mountain{
+    position:absolute;
+    top:-40px;
+}
+
+/* Matching the color to the next section */
+.parallax .ground{
+    position:absolute;
+    top:-90px;
+}
+
+.sec{
+    position:relative;
+    background:#0c102d ;
+    padding:100px;
+}
+
+.sec h2{
+    font-size: 3em;
+    color:#fff;
+    margin-bottom:10px;
+    
+}
+
+.sec p{
+    font-size: 1em;
+    color:#fff;
+    font-weight: 300;
+    
+}
+
+.sec about-img{
+    height:20px;
+}
+
+.about-disc{
+    position:absolute;
+    top:270px;
+    left:580px;
+}

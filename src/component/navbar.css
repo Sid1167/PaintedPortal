@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: norder-box;
+    font-family: 'poppins',sans-serif;
+  }
+
+.navigator .logo{
+    position:absolute;
+    left: -1035px;
+    top: 0px;
+}
+
+.navigator{
+    position:absolute;
+    left:1110px;
+    top:20px;
+    width:20%;
+    padding:30px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index:100;
+
+    text-decoration: none;
+    color:black;
+    padding: 6px 15px;
+    border-radius:20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigator List{
+    text-decoration: none;
+    color:black;
+    
+}
+
